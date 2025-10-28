@@ -11,19 +11,19 @@ const pluginOptions = {
 	/**
 	 * Human-readable name
 	 */
-	pluginName: "Tiger Plugin Template",
+	pluginName: "Scenario Object Trigger",
 
 	/**
 	 * Author name
 	 * warning: this works only for plugins with single author (or for groups such as "ACME authors")
 	 * otherwise see plugin.ts around line 9 and use string[] to define a list of authors
 	 */
-	pluginAuthor: "Your Name",
+	pluginAuthor: "Ríša Szlachta (tygrysek90)",
 
 	/**
 	 * Version
 	 */
-	pluginVersion: "0.0"
+	pluginVersion: "0.1"
 }
 
 const options =

@@ -9,7 +9,7 @@
 // originally licensed under MIT License
 // see licenses directory */
 
-import { build } from "./environment";
+import { build, pluginName } from "../environment";
 
 /**
  * Logs a message if plugin is build with dev option, or does nothing otherwise.
@@ -19,7 +19,7 @@ export function debug(message: string): void
 {
 	if (build.isDevelopment)
 	{
-		console.log(message);
+		console.log(`${pluginName}: ${message}`);
 	}
 }
 
@@ -32,6 +32,6 @@ export function debug(message: string): void
 export function error(message: string, method?:string): void
 {
 	console.log((method)
-		? `Error (${method}): ${message}`
-		: `Error: ${message}`);
+		? `${pluginName}: Error (${method}): ${message}`
+		: `${pluginName}: Error: ${message}`);
 }
