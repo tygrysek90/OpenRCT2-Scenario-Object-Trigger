@@ -13,12 +13,12 @@
  */
 
 import { Colour, dropdown, groupbox, label, LayoutDirection, window } from "openrct2-flexui";
-import { pluginName } from "../environment";
+import { pluginName, pluginVersion } from "../environment";
 import { onDropDownChange, onMainWinOpen } from "./actions";
 import { scenarioEditorModel } from "./model";
 
 export const scenarioEditorWin = window({
-    title: pluginName,
+    title: `${pluginName} ${pluginVersion}`,
     width: 500,
     height: 124,
     colours: [Colour["Grey"], Colour["Grey"]],
