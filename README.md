@@ -1,3 +1,6 @@
+#### I have ceased my activities on GitHub. Contents of this repository are no longer maintained.
+
+
 # OpenRCT2-Scenario-Object-Trigger
 
 #### Original idea by Xedoh
